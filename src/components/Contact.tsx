@@ -13,7 +13,7 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-amber-600 mb-4">Contact</h2>
           <p className="text-4xl mb-4 text-gray-900">
-            Visitez-Nous à Dakar
+            Visitez-Nous à Guédiawaye marché sham
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export function Contact() {
             </div>
             <h3 className="text-gray-900 mb-2">Adresse</h3>
             <p className="text-gray-600">
-              76 Rue Carnot<br />
+               guédiawaye Marché sham<br />
               Dakar, Sénégal
             </p>
           </div>
@@ -35,7 +35,7 @@ export function Contact() {
             </div>
             <h3 className="text-gray-900 mb-2">Téléphone</h3>
             <a href="tel:+22135566666" className="text-amber-600 hover:text-amber-700">
-              +221 35 56 66 66
+              +221 77 510 77 40
             </a>
           </div>
 
