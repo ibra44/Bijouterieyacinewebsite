@@ -13,11 +13,11 @@ export function Header() {
             <div className="flex items-center gap-4">
               <a href="tel:+22135566666" className="flex items-center gap-2 hover:opacity-90 transition">
                 <Phone className="w-4 h-4" />
-                <span>+221 35 56 66 66</span>
+                <span>+221 77 510 77 40</span>
               </a>
             </div>
             <div className="hidden md:block">
-              <span>76 Rue Carnot, Dakar</span>
+              <span>Guédiawaye marché sham</span>
             </div>
           </div>
         </div>
