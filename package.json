@@ -54,11 +54,7 @@
       },
       "scripts": {
           "dev": "vite",
-<<<<<<< HEAD
           "build": "vite build",
           "preview": "vite preview"
-=======
-          "build": "vite build"
->>>>>>> f4cd26442681349ce3f45156cbbd985f7be1aeee
       }
   }
