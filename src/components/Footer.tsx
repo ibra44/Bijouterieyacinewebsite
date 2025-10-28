@@ -13,7 +13,7 @@ export function Footer() {
               <h3 className="text-white">Bijouterie YACINE</h3>
             </div>
             <p className="text-gray-400 mb-4">
-              Votre destination pour les bijoux d'exception à Dakar. 
+              Votre destination pour les bijoux d'exception à Guédiawaye. 
               Qualité, authenticité et élégance depuis des années.
             </p>
             <div className="flex gap-4">
@@ -84,11 +84,11 @@ export function Footer() {
           <div>
             <h4 className="text-white mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>76 Rue Carnot</li>
-              <li>Dakar, Sénégal</li>
+              <li>Guédiawaye sham</li>
+              <li> Sénégal</li>
               <li>
                 <a href="tel:+22135566666" className="hover:text-amber-500 transition">
-                  +221 35 56 66 66
+                  +221 77 510 77 40
                 </a>
               </li>
               <li>info@bijouterieyacine.sn</li>
