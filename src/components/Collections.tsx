@@ -1,52 +1,46 @@
-//import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const products = [
   {
     id: 1,
     name: 'Bagues en Or',
     description: 'Collection de bagues en or 18 carats',
-    //image: 'https://images.unsplash.com/photo-1638382874010-aa4e76fe267d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBqZXdlbHJ5JTIwcmluZ3N8ZW58MXx8fHwxNzYxMjgxMzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1638382874010-aa4e76fe267d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBqZXdlbHJ5JTIwcmluZ3N8ZW58MXx8fHwxNzYxMjgxMzQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Bagues'
   },
   {
     id: 2,
     name: 'Colliers Africains',
     description: 'Designs traditionnels en or',
-    //image: 'https://images.unsplash.com/photo-1611012756377-05e2e4269fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbmVja2xhY2UlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTI2NTA3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1611012756377-05e2e4269fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbmVja2xhY2UlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTI2NTA3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Colliers'
   },
   {
     id: 3,
     name: 'Bijoux Précieux',
     description: 'Pièces uniques artisanales',
-    //image: 'https://images.unsplash.com/photo-1725114076972-8bbe826d792b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZ29sZCUyMGpld2Vscnl8ZW58MXx8fHwxNzYxMzQyNDM2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1725114076972-8bbe826d792b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZ29sZCUyMGpld2Vscnl8ZW58MXx8fHwxNzYxMzQyNDM2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Collections'
   },
   {
     id: 4,
     name: 'Boucles d\'Oreilles',
     description: 'Élégance et raffinement',
-    //image: 'https://images.unsplash.com/photo-1757140448317-722fb8f439f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZWFycmluZ3MlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTM0MjQzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1757140448317-722fb8f439f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZWFycmluZ3MlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTM0MjQzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Boucles d\'Oreilles'
   },
   {
     id: 5,
     name: 'Bracelets en Or',
     description: 'Collection exclusive de bracelets',
-    //image: 'https://images.unsplash.com/photo-1655707063513-a08dad26440e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwYnJhY2VsZXRzJTIwamV3ZWxyeXxlbnwxfHx8fDE3NjEzNDI0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1655707063513-a08dad26440e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwYnJhY2VsZXRzJTIwamV3ZWxyeXxlbnwxfHx8fDE3NjEzNDI0Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Bracelets'
   },
   {
     id: 6,
     name: 'Parures Complètes',
     description: 'Ensembles harmonieux',
-    //image: 'https://images.unsplash.com/photo-1611012756377-05e2e4269fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbmVja2xhY2UlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTI2NTA3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    image:'images/hero-bijouterie.jpg', 
+    image: 'https://images.unsplash.com/photo-1611012756377-05e2e4269fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbmVja2xhY2UlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTI2NTA3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Parures'
   }
 ];
