@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+//import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const products = [
   {
