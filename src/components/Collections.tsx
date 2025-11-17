@@ -51,7 +51,7 @@ const products = [
     name: 'Parures Complètes',
     description: 'Ensembles harmonieux',
     // image: '/images/collier2.png',
-    image: 'https://ibra44.github.io/Bijouterieyacinewebsite/images/collier2.png',
+    image: 'https://ibra44.github.io/Bijouterieyacinewebsite/images/collier2.jpg',
     //image: 'https://images.unsplash.com/photo-1611012756377-05e2e4269fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb2xkJTIwbmVja2xhY2UlMjBqZXdlbHJ5fGVufDF8fHx8MTc2MTI2NTA3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     category: 'Parures'
   }
