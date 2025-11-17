@@ -10,7 +10,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <ImageWithFallback
          //src="/images/collier 3.png"
-         src="https://ibra44.github.io/Bijouterieyacinewebsite/images/colliernew.jpg"
+         src="https://ibra44.github.io/Bijouterieyacinewebsite/images/colliernew.png"
           //src="https://images.unsplash.com/photo-1759683730016-1c3c6e526cfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqZXdlbHJ5JTIwc3RvcmUlMjBsdXh1cnl8ZW58MXx8fHwxNzYxMjg5NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Bijouterie Yacine"
           className="w-full h-full object-cover"
