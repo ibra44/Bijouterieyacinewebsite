@@ -20,13 +20,12 @@ export function Hero() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl text-white">
-          <h2 className="text-amber-400 mb-4">L'Excellence de Dakar</h2>
+          <h2 className="text-amber-400 mb-4">L'Excellence de Guédiawaye</h2>
           <p className="text-5xl md:text-6xl mb-6 text-white">
-            Bijoux d'Exception pour des Moments Précieux
+            
           </p>
           <p className="text-xl mb-8 text-gray-200">
-            Découvrez notre collection exclusive de bijoux en or, argent et pierres précieuses. 
-            Fabrication artisanale et designs africains authentiques.
+            
           </p>
           <div className="flex flex-wrap gap-4">
             <a
