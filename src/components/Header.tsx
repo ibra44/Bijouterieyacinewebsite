@@ -17,7 +17,7 @@ export function Header() {
               </a>
             </div>
             <div className="hidden md:block">
-              <span>Guédiawaye Marché Shame </span>
+              <span>Guédiawaye Marché Sham </span>
             </div>
           </div>
         </div>
